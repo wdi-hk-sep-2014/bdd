@@ -5,4 +5,8 @@ feature 'Visit the image uploader page' do
     visit '/'
     expect(page).to have_content 'Image Uploader'
   end
+
+  scenario 'Upload Successful'
+
+  scenario 'Show the image'
 end
