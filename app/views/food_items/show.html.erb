@@ -3,6 +3,8 @@
 <p>
   <strong>Name:</strong>
   <%= @food_item.name %>
+  <strong>Picture:</strong>
+  <%= image_tag @food_item.picture_url %>
 </p>
 
 <%= link_to 'Edit', edit_food_item_path(@food_item) %> |
